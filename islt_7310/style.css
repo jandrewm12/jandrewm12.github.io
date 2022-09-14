@@ -1,3 +1,20 @@
+@font-face {
+    font-family: Alice;
+    src: url(Alice/Alice-Regular.ttf);
+}
+
+@font-face {
+    font-family: manrope;
+    src: url(manrope/fonts/ttf/Manrope-Regular.ttf);
+}
+
+body {
+    color: #EAE3D2;
+    background-color: #1C3879;
+    font-family: manrope, Arial, sans-serif;
+}
+
 h1 {
-    color: #993333;
+    color: #F9F5EB;
+    font-family: Alice, Times, serif;
 }

@@ -34,10 +34,16 @@ Tested:  Sep 14, 2022; Passed on Chrome browser.
     </header>
     <nav>
 
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#projects.html">Projects</a></li>
+        <ul class="navbar">
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="about.html">About</a></li>
+            <li class="dropdown item"><a href="#projects.html">Projects ></a>
+                <ul class="dropdown-content">
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+            </li>
         </ul>
 
     </nav>
