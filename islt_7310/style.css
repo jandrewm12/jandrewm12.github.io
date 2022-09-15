@@ -14,7 +14,31 @@ body {
     font-family: manrope, Arial, sans-serif;
 }
 
-h1 {
+h1, h2, h3 {
     color: #F9F5EB;
     font-family: Alice, Times, serif;
 }
+
+a {
+    color: #F9F5EB;
+}
+
+/* places all reflection paragraphs inside same box */
+.reflectionbody {
+    margin: 0;
+    padding: 15px;
+    padding-top: 0px;
+    display: block;
+}
+
+/* changes styling of first letter of first paragraph */
+.reflectionbody > p.first::first-letter {
+    font-size: 35px;
+    color: #F9F5EB;
+}
+
+/* indents paragraphs after the first paragraph */
+p.first ~ p {
+    text-indent: 50px;
+}
+
