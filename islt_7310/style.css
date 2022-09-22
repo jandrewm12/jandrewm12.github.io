@@ -1,17 +1,18 @@
 @font-face {
     font-family: Alice;
-    src: url(Alice/Alice-Regular.ttf);
+    src: url(Assets/Fonts/Alice/Alice-Regular.ttf);
 }
 
 @font-face {
     font-family: manrope;
-    src: url(manrope/fonts/ttf/Manrope-Regular.ttf);
+    src: url(Assets/Fonts/manrope/fonts/ttf/Manrope-Regular.ttf);
 }
 
 body {
     color: #EAE3D2;
     background-color: #1C3879;
     font-family: manrope, Arial, sans-serif;
+    font-size: 20px;
 }
 
 h1, h2, h3 {
@@ -21,6 +22,17 @@ h1, h2, h3 {
 
 a {
     color: #F9F5EB;
+}
+
+video {
+    border: 3px solid #EAE3D2;
+    border-radius: 25px;
+}
+
+footer {
+    background-color: #607EAA;
+    padding: 5px;
+    padding-left: 10px;
 }
 
 /* places all reflection paragraphs inside same box */
@@ -41,4 +53,41 @@ a {
 p.first ~ p {
     text-indent: 50px;
 }
+
+
+/* about page flexbox styling */
+
+.container, .aboutparagraphcontainer, .education, .resumecontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 5px;
+}
+
+.aboutparagraphcontainer, .education, .resumecontainer {
+    background-color: #607EAA;
+    border: 5px solid #607EAA;
+    border-radius: 25px;
+}
+
+.education {
+    justify-content: center;
+}
+
+.container {
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.resumecontainer{
+    flex-direction: column;
+}
+
+.headshot {
+    border: 3px solid #EAE3D2;
+    border-radius: 25px;
+}
+
 
