@@ -82,7 +82,7 @@ ul li {
 @media screen and (max-width: 1000px) {
 
     .item, .dropdown {
-        font-size: 30px;
+        font-size: 20px;
     }
 
 }
