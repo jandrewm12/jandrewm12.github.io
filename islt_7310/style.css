@@ -122,8 +122,8 @@ p.first ~ p {
 @media screen and (max-width: 1000px) {
     #aboutPage, .indexPage, .reflectionPage {
         flex-direction: column;
-        margin-left: 25px;
-        margin-right: 25px;
+        /* margin-left: 25px;
+        margin-right: 25px; */
     }
 
     body {
