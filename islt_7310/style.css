@@ -81,7 +81,7 @@ p.first ~ p {
 }
 
 /* generic page styling */
-#aboutPage, .indexPage, .reflectionPage {
+.aboutPage, .indexPage, .reflectionPage {
     flex-direction: column;
     margin-left: 100px;
     margin-right: 100px;
@@ -120,18 +120,47 @@ p.first ~ p {
 }
 
 @media screen and (max-width: 1300px) {
-    #aboutPage, .indexPage, .reflectionPage {
+    .aboutPage, .indexPage, .reflectionPage {
         flex-direction: column;
-        /* margin-left: 25px;
-        margin-right: 25px; */
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .container {
+        margin: 10px;
+        padding: 10px;
+        align-items: center;
+        max-width: 90%;
+    }
+
+    .resumecontainer {
+        align-items: center;
+    }
+
+    .vidContainer {
+        text-align: center;
     }
 
     body {
         font-size: 15px;
-        color: red;
     }
 
     .headshot {
-        max-height: 15%;
+        max-width: 75%;
+    }
+
+    video {
+        border: none;
+        border-radius: 0;
+        max-width: 95%
+    }
+
+    .reflectionImage {
+        height: 250px;
+        max-width: 95%;
+        border: 3px solid #EAE3D2;
+        border-radius: 25px;
     }
   }
