@@ -119,7 +119,7 @@ p.first ~ p {
     border-radius: 25px;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1300px) {
     #aboutPage, .indexPage, .reflectionPage {
         flex-direction: column;
         /* margin-left: 25px;
