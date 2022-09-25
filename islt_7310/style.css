@@ -35,6 +35,12 @@ footer {
     padding-left: 10px;
 }
 
+/* professional headshot settings */
+.headshot {
+    border: 3px solid #EAE3D2;
+    border-radius: 25px;
+}
+
 /* places all reflection paragraphs inside same box */
 .reflectionbody {
     margin: 0;
@@ -55,39 +61,72 @@ p.first ~ p {
 }
 
 
-/* about page flexbox styling */
+/* flex styling */
 
-.container, .aboutparagraphcontainer, .education, .resumecontainer {
+
+/* all flexbox divs will receive this generic styling */
+.container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     padding: 15px;
     margin: 5px;
+    
 }
 
-.aboutparagraphcontainer, .education, .resumecontainer {
+/* styling for first level subcontainers */
+.subContainer {
     background-color: #607EAA;
     border: 5px solid #607EAA;
     border-radius: 25px;
 }
 
-.education {
-    justify-content: center;
-}
-
-.container {
+/* generic page styling */
+#aboutPage, .indexPage, .reflectionPage {
     flex-direction: column;
     margin-left: 100px;
     margin-right: 100px;
+}
+
+/* special about page styling */
+.education {
+    justify-content: center;
+    flex-direction: row;
 }
 
 .resumecontainer{
     flex-direction: column;
 }
 
-.headshot {
+
+/* special home page styling */
+.indexBody {
+    justify-content: center;
+}
+
+.indexParagraph {
+    max-width: 65%;
+    /* padding: 15px; */
+}
+
+.reflectionImageContainer {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.reflectionImage {
+    height: 250px;
     border: 3px solid #EAE3D2;
     border-radius: 25px;
 }
 
+@media screen and (max-width: 1000px) {
+    #aboutPage, .indexPage, .reflectionPage {
+        flex-direction: column;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
 
+    body {
+        font-size: 25px;
+    }
+  }
