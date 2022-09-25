@@ -119,7 +119,7 @@ p.first ~ p {
     border-radius: 25px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1080px) {
     #aboutPage, .indexPage, .reflectionPage {
         flex-direction: column;
         /* margin-left: 25px;
@@ -132,6 +132,6 @@ p.first ~ p {
     }
 
     .headshot {
-        max-height: 35%;
+        max-height: 15%;
     }
   }

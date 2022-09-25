@@ -79,7 +79,7 @@ ul li {
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1080px) {
 
     .item, .dropdown {
         font-size: 20px;
