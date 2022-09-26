@@ -4,17 +4,7 @@ I used the provided resource:
 https://www.w3schools.com/howto/howto_css_dropdown.asp
 as a reference when designing my dropdown menu */
 
-/*
-ul li {
-    display: inline;
-    list-style-type: none;
-    border: 2px solid black;
-    padding: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin: 10px;
-}
-*/
+
 
 .navbar {
     overflow: hidden;
@@ -24,6 +14,8 @@ ul li {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+
+    padding-inline-start: 0;
 }
 
 .navbar a {
@@ -76,6 +68,11 @@ ul li {
 
 .dropdown:hover .dropdown-content {
     display: block;
+
+}
+
+nav {
+    text-align: center;
 }
 
 
