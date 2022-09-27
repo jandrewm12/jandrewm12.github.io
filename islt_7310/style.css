@@ -187,7 +187,7 @@ p.first ~ p {
         font-family: serif !important;
         border: none !important;
         border-radius: 0 !important;
-        max-width: 100% !important;
+        max-width: 100%;
         padding: 0 !important;
         margin: 0 !important;
     }
@@ -201,11 +201,11 @@ p.first ~ p {
         display: none !important;
     }
 
-    p, ul, li, blockquote {
+    p, ul, blockquote {
         font-size: 16px !important;
         padding: 15px 0 15px 0 !important;
-        
     }
+
 
     @page { 
         size: 8.5in 11in; 
