@@ -201,7 +201,7 @@ p.first ~ p {
         padding: 5px !important;
     }
 
-    .navbar, .headshot, .resumecontainer, h3 {
+    .navbar, .headshot, .resumecontainer, h3, .icon {
         display: none !important;
     }
 
