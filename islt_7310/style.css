@@ -127,6 +127,25 @@ p.first ~ p {
     border-radius: 25px;
 }
 
+
+/* The animation code */
+@keyframes sizeIncrease {
+    from {width: 25px; height: 25px;}
+    to {width: 35px; height: 35px;}
+  }
+  
+/* The element to apply the animation to */
+
+
+footer:hover .icon {
+    width: 25px;
+    height: 25px;
+    animation-name: sizeIncrease;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
 @media screen and (max-width: 1300px) {
     .aboutPage, .indexPage, .reflectionPage {
         flex-direction: column;
