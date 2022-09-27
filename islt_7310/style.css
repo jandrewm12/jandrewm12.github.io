@@ -127,6 +127,37 @@ p.first ~ p {
     border-radius: 25px;
 }
 
+.specialContainer {
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.projectPage {
+    flex-direction: row;
+}
+
+.project {
+    flex-direction: column;
+    max-width: 30%;
+}
+
+.projectImage {
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* The animation code */
 @keyframes sizeIncrease {
@@ -135,8 +166,6 @@ p.first ~ p {
   }
   
 /* The element to apply the animation to */
-
-
 footer:hover .icon {
     width: 25px;
     height: 25px;
@@ -147,7 +176,7 @@ footer:hover .icon {
 
 
 @media screen and (max-width: 1300px) {
-    .aboutPage, .indexPage, .reflectionPage {
+    .aboutPage, .indexPage, .reflectionPage, .projectPage {
         flex-direction: column;
         margin: 0;
         align-items: center;
