@@ -41,7 +41,7 @@ footer {
 /* professional headshot settings */
 .headshot {
     border: 3px solid #EAE3D2;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
 
@@ -144,6 +144,9 @@ p.first ~ p {
 
 .projectImage {
     max-width: 100%;
+    border: 3px solid #EAE3D2;
+    border-radius: 20px;
+    
 }
 
 
