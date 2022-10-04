@@ -38,6 +38,33 @@ footer {
     padding-left: 10px;
 }
 
+
+table, th, td {
+    border: 3px solid #1C3879;
+    padding: 5px;
+    text-align: center;
+    color:#1C3879;
+}
+
+tr {
+    background-color: #EAE3D2;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+caption {
+    margin-bottom: 5px;
+    color:#F9F5EB;
+}
+
+tr:nth-child(odd){
+    background-color: #F9F5EB;
+}
+
+
+
 /* professional headshot settings */
 .headshot {
     border: 3px solid #EAE3D2;
@@ -231,6 +258,12 @@ footer:hover .icon {
 
     .education > div {
         max-width: 100%;
+    }
+
+
+    table, th, td {
+        padding: 2px;
+        font-size: 17px;
     }
   }
 
