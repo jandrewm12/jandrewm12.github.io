@@ -1,0 +1,111 @@
+<!--
+
+*****************************************************************************
+
+Title:  Contact Page
+
+Use:  Allow user to contact me through an HTML form.
+
+Author:  Jacob McIntosh
+
+School/Term:  University of Missouri, Fall 2022
+
+Developed: Oct 05, 2022
+
+Tested:  Oct 05, 2022; Passed on Chrome browser.
+
+******************************************************************************
+
+-->
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="nav.css">
+        <link rel="icon" type="image/x-icon" href="Assets/Images/favico.png">
+    </head>
+<body>
+
+    <header>
+
+        <h1>Jacob McIntosh</h1>
+
+    </header>
+    <nav>
+
+        <ul class="navbar">
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="about.html">About</a></li>
+            <li class="dropdown item"><a href="project.html">Projects ></a>
+                <ul class="dropdown-content">
+                    <li><a href="project.html#sites">Computing Sites</a></li>
+                    <li><a href="project.html#nasa">NASA Website</a></li>
+                    <li><a href="project.html#game">Brain Game</a></li>
+                </ul>
+            </li>
+            <li class="item"><a href="reflection.html">Reflection</a></li>
+            <li class="item"><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+    <main>
+
+        <!-- Main content goes here! -->
+
+        <div class="container contactPage">
+            <h3>Contact Page</h3>
+            <!-- decorative section -->
+            <div class="container subContainer contactPageDetails">
+                <img src="Assets/Images/McIntoshHeadshot.png" class="headshot" alt="Professional headshot">
+                <div>
+                    <h3>Email: jam6m4@umsystem.edu</h3>
+                    <h3>Phone: 1+888-888-8888</h3>
+                    <h3>Github: jandrewm12</h3>
+                </div>
+                
+            </div>
+
+            <!-- form div -->
+            <div class="container subContainer formContainer">
+                <h3>Contact me!</h3>
+                <form action="mailto:jam6m4@umsystem.edu?subject=Portfolio/Professional&nbsp;Website&nbsp;Contact" method="POST" enctype="text/plain">
+                    <!-- Include the following:
+                        First Name X
+                        Last Name X
+                        Email X 
+                        Message X
+                        Send Button (Submit) X
+                    -->
+                    <label for="fname">First name: </label><br>
+                    <input type="text" id="fname" name="fname" placeholder="John" required autofocus><br><br>
+
+                    <label for="lname">Last name: </label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Appleseed" required><br><br>
+
+                    <label for="email">Email: </label><br>
+                    <input type="email" id="email" name="email" placeholder="johnappleseed@email.com" required><br><br>
+
+                    <label for="message">Message: </label><br>
+                    <input type="text" id="message" name="message" placeholder="Your message goes here."><br><br>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+
+        <p>Jacob McIntosh<br>
+        <img src="Assets/Images/email.png" class="icon" alt="email logo" width="25" height="25"> jam6m4@umsystem.edu<br>
+        <img src="Assets/Images/phone.png" class="icon" alt="phone logo" width="25" height="25"> 1+888-888-8888<br>
+        Copyright © 2022</p>
+
+    </footer>
+
+
+</body>
+</html>
